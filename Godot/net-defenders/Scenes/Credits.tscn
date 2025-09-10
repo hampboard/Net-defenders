@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=3 uid="uid://da28cfhmy1uyg"]
+
+[ext_resource type="Script" uid="uid://bvnjy0w0kqjbx" path="res://scripts/credits.gd" id="1_i8h6y"]
+
+[node name="Credits" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_i8h6y")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(1080, 700)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(1, 1, 1, 0.392157)
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1080.0
+offset_bottom = 700.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Credits" type="VBoxContainer" parent="ScrollContainer"]
+custom_minimum_size = Vector2(1080, 700)
+layout_mode = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="ScrollContainer/Credits"]
+custom_minimum_size = Vector2(1080, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "aaaaaaaaaaaaaaa"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="BackButton" type="Button" parent="."]
+custom_minimum_size = Vector2(1080, 0)
+layout_mode = 1
+offset_top = 657.0
+offset_right = 1080.0
+offset_bottom = 699.0
+theme_override_font_sizes/font_size = 24
+text = "Back"

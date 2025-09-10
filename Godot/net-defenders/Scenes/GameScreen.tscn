@@ -1,0 +1,108 @@
+[gd_scene load_steps=7 format=3 uid="uid://bspypqnq82lti"]
+
+[ext_resource type="Script" uid="uid://c5rgmai8x0d4w" path="res://scripts/game_manager.gd" id="1_4v8sn"]
+[ext_resource type="PackedScene" uid="uid://djo24i4uwfsq1" path="res://Scenes/ScenarioCard.tscn" id="2_pv3es"]
+
+[sub_resource type="Animation" id="Animation_rygbo"]
+resource_name = "FeedbackLabel"
+
+[sub_resource type="Animation" id="Animation_pv3es"]
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.32549, 0.596078, 0.996078, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_4v8sn"]
+resource_name = "ShowFeedback"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 2.5, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(0.32549, 0.596078, 0.996078, 0), Color(0.32549, 0.596078, 0.996078, 0.784314), Color(0.32549, 0.596078, 0.996078, 1), Color(0.32549, 0.596078, 0.996078, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_rygbo"]
+_data = {
+&"FeedbackLabel": SubResource("Animation_rygbo"),
+&"RESET": SubResource("Animation_pv3es"),
+&"ShowFeedback": SubResource("Animation_4v8sn")
+}
+
+[node name="GameScreen" type="Node2D"]
+script = ExtResource("1_4v8sn")
+
+[node name="ScenarioCard" parent="." instance=ExtResource("2_pv3es")]
+offset_right = 1080.0
+offset_bottom = 200.0
+
+[node name="FeedbackLabel" type="Label" parent="."]
+modulate = Color(0.32549, 0.596078, 0.996078, 0)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1080.0
+offset_bottom = 700.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 28
+text = "HELOOOOOOOOOOO"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="FeedbackAnim" type="AnimationPlayer" parent="FeedbackLabel"]
+libraries = {
+&"": SubResource("AnimationLibrary_rygbo")
+}
+
+[node name="MenuButtons" type="VBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 268.0
+offset_right = 1080.0
+offset_bottom = 968.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Retry" type="Button" parent="MenuButtons"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Retry"
+
+[node name="Easy" type="Button" parent="MenuButtons"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Easy"
+
+[node name="Medium" type="Button" parent="MenuButtons"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Medium"
+
+[node name="Hard" type="Button" parent="MenuButtons"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Hard"
+
+[node name="Return" type="Button" parent="MenuButtons"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Return"
+
+[connection signal="animation_finished" from="FeedbackLabel/FeedbackAnim" to="." method="_on_feedback_anim_animation_finished"]

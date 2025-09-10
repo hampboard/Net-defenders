@@ -1,0 +1,542 @@
+[
+  {
+	"id": 1,
+	"difficulty": "easy",
+	"scenario": "You get an email titled 'You won Php 1,000,000' with a link and no sender name.",
+	"choices": ["Click link", "Ignore and delete"],
+	"correct_index": 1,
+	"feedback_correct": "Nice. That looks like a prize scam.",
+	"feedback_incorrect": "Careful. Prize emails are usually scams. Do not click unknown links."
+  },
+  {
+	"id": 2,
+	"difficulty": "easy",
+	"scenario": "A friend sends a photo via a social app. The message is just a link with no caption.",
+	"choices": ["Open link", "Ask friend if they sent it"],
+	"correct_index": 1,
+	"feedback_correct": "Good call. Verify before opening unknown links.",
+	"feedback_incorrect": "That link could be malicious. Ask the sender first."
+  },
+  {
+	"id": 3,
+	"difficulty": "easy",
+	"scenario": "A website asks for your password in a popup while you are logged in.",
+	"choices": ["Enter password", "Close popup and log in from the site page"],
+	"correct_index": 1,
+	"feedback_correct": "Right. Legit sites do not re-request passwords in random popups.",
+	"feedback_incorrect": "Popups asking for passwords can be phishing. Always use the official login page."
+  },
+  {
+	"id": 4,
+	"difficulty": "easy",
+	"scenario": "Someone you do not know asks to be your friend and wants personal details.",
+	"choices": ["Share personal details", "Decline or stay cautious"],
+	"correct_index": 1,
+	"feedback_correct": "Good boundary. Share only with trusted people.",
+	"feedback_incorrect": "Giving personal details to strangers is risky. Keep info private."
+  },
+  {
+	"id": 5,
+	"difficulty": "easy",
+	"scenario": "Your browser warns a site is not secure when you try to enter card details.",
+	"choices": ["Proceed anyway", "Do not enter card details"],
+	"correct_index": 1,
+	"feedback_correct": "Correct. Only enter payment info on secure sites.",
+	"feedback_incorrect": "If the site is not secure your details could be stolen."
+  },
+  {
+	"id": 6,
+	"difficulty": "easy",
+	"scenario": "A file named 'exam_answers.exe' appears in your downloads unexpectedly.",
+	"choices": ["Run it", "Delete and scan with antivirus"],
+	"correct_index": 1,
+	"feedback_correct": "Right. Unknown executables are often malware.",
+	"feedback_incorrect": "Running unknown files can infect your device."
+  },
+  {
+	"id": 7,
+	"difficulty": "easy",
+	"scenario": "A pop-up offers a free prize if you fill a form and give your phone number.",
+	"choices": ["Fill the form", "Ignore the offer"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Offers that ask for personal contact often collect data.",
+	"feedback_incorrect": "Giving your number to random forms can lead to spam or scams."
+  },
+  {
+	"id": 8,
+	"difficulty": "easy",
+	"scenario": "Your password is 'password123' for multiple sites.",
+	"choices": ["Keep it", "Change to unique strong passwords"],
+	"correct_index": 1,
+	"feedback_correct": "Nice. Unique passwords protect you if one site is breached.",
+	"feedback_incorrect": "Reusing weak passwords makes many accounts vulnerable."
+  },
+  {
+	"id": 9,
+	"difficulty": "easy",
+	"scenario": "An app requests access to your contacts but does not need them.",
+	"choices": ["Allow access", "Deny access"],
+	"correct_index": 1,
+	"feedback_correct": "Correct. Only allow permissions apps actually need.",
+	"feedback_incorrect": "Unnecessary permissions can leak friend data."
+  },
+  {
+	"id": 10,
+	"difficulty": "easy",
+	"scenario": "A download prompt says 'This update is required' but not from the official site.",
+	"choices": ["Download and install", "Check official site for updates"],
+	"correct_index": 1,
+	"feedback_correct": "Right. Always get updates from official sources.",
+	"feedback_incorrect": "Fake updaters are a common way to install malware."
+  },
+  {
+	"id": 11,
+	"difficulty": "easy",
+	"scenario": "A shortened link in a public post claims urgent news.",
+	"choices": ["Click the link", "Verify story from trusted sources"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Short links hide destinations. Verify with reliable sources.",
+	"feedback_incorrect": "Short links can lead to harmful sites. Verify claims first."
+  },
+  {
+	"id": 12,
+	"difficulty": "easy",
+	"scenario": "Your friend asks for your game account password because they 'forgot theirs'.",
+	"choices": ["Share your password", "Tell them to use account recovery"],
+	"correct_index": 1,
+	"feedback_correct": "Right. Never share account passwords.",
+	"feedback_incorrect": "Sharing passwords can let others take over your account."
+  },
+  {
+	"id": 13,
+	"difficulty": "easy",
+	"scenario": "A website shows popups and blinking ads asking you to click to continue.",
+	"choices": ["Click continue", "Leave the site"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Aggressive popups are often malicious.",
+	"feedback_incorrect": "Clicking ads can download unwanted software."
+  },
+  {
+	"id": 14,
+	"difficulty": "easy",
+	"scenario": "You get an SMS with a code you did not request.",
+	"choices": ["Share the code", "Ignore the message"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Unexpected codes can be account takeover attempts.",
+	"feedback_incorrect": "Sharing codes can let attackers access your accounts."
+  },
+  {
+	"id": 15,
+	"difficulty": "easy",
+	"scenario": "You plug into a public charging kiosk that asks to allow data transfer.",
+	"choices": ["Allow data transfer", "Only charge or use your own cable"],
+	"correct_index": 1,
+	"feedback_correct": "Correct. Public chargers can be used to steal data.",
+	"feedback_incorrect": "Allowing data transfer risks exposing your phone files."
+  },
+  {
+	"id": 16,
+	"difficulty": "easy",
+	"scenario": "A contact sends a shortened URL with a note 'Quick, look!'.",
+	"choices": ["Open immediately", "Ask why and check with contact"],
+	"correct_index": 1,
+	"feedback_correct": "Nice. Urgency is a common social engineering tactic.",
+	"feedback_incorrect": "Attackers use urgency to make you act without thinking."
+  },
+  {
+	"id": 17,
+	"difficulty": "easy",
+	"scenario": "A browser extension promises free features but asks for full site access.",
+	"choices": ["Install it", "Do not install"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Extensions with broad access can read your data.",
+	"feedback_incorrect": "Granting full access risks your privacy."
+  },
+  {
+	"id": 18,
+	"difficulty": "easy",
+	"scenario": "A message from your bank has spelling errors and a link to update info.",
+	"choices": ["Click the link", "Contact the bank directly"],
+	"correct_index": 1,
+	"feedback_correct": "Correct. Banks rarely send poorly written messages.",
+	"feedback_incorrect": "Phishing often includes errors and fake links."
+  },
+  {
+	"id": 19,
+	"difficulty": "easy",
+	"scenario": "A software installer offers extra toolbars as optional checkboxes.",
+	"choices": ["Accept all", "Uncheck extras"],
+	"correct_index": 1,
+	"feedback_correct": "Right. Decline extras you do not need.",
+	"feedback_incorrect": "Extra toolbars can change settings and collect data."
+  },
+  {
+	"id": 20,
+	"difficulty": "easy",
+	"scenario": "Your device is slower after installing a free app from a sketchy site.",
+	"choices": ["Keep the app", "Uninstall and scan"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Performance drops can be malware.",
+	"feedback_incorrect": "Suspicious apps can harm your device and data."
+  },
+  {
+	"id": 21,
+	"difficulty": "medium",
+	"scenario": "You receive an email from your teacher with an attached exam file. The email greeting uses your full name but the sender address has an extra letter.",
+	"choices": ["Open attachment", "Confirm sender by contacting teacher in class or by school portal", "Report to IT"],
+	"correct_index": 1,
+	"feedback_correct": "Smart. A small typo in email can mean a fake sender. Verify with a trusted channel.",
+	"feedback_incorrect": "The address could be spoofed. Verify before opening attachments."
+  },
+  {
+	"id": 22,
+	"difficulty": "medium",
+	"scenario": "A colleague asks you to share a link to a cloud folder. The folder requests you to 'log in with Google' using a popup.",
+	"choices": ["Log in via popup", "Open a new tab and navigate to Google to check access", "Decline"],
+	"correct_index": 1,
+	"feedback_correct": "Right. OAuth popups can be fake. Always verify the original site.",
+	"feedback_incorrect": "Fake login popups can steal your credentials."
+  },
+  {
+	"id": 23,
+	"difficulty": "medium",
+	"scenario": "A popular app asks for SMS permissions to 'enhance messaging features' but you use a different messaging app.",
+	"choices": ["Allow SMS permission", "Deny permission since not needed"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Only allow permissions relevant to the app function.",
+	"feedback_incorrect": "Extra permissions can leak private messages."
+  },
+  {
+	"id": 24,
+	"difficulty": "medium",
+	"scenario": "An account that looks like your friend sends a link to a 'fun quiz' but the profile photo is slightly different.",
+	"choices": ["Click quiz link", "Ask friend in person if they sent it", "Ignore"],
+	"correct_index": 1,
+	"feedback_correct": "Right. Impersonation is common. Confirm identity if anything feels off.",
+	"feedback_incorrect": "Clicking could lead to credential theft."
+  },
+  {
+	"id": 25,
+	"difficulty": "medium",
+	"scenario": "Your school portal shows a notification to install a new security plugin. The download link is not from the official domain.",
+	"choices": ["Install plugin", "Contact IT and get the plugin from the official site"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Official downloads should come from official domains.",
+	"feedback_incorrect": "Installing unofficial plugins can compromise the system."
+  },
+  {
+	"id": 26,
+	"difficulty": "medium",
+	"scenario": "A website login asks you to verify your account by entering the last 4 digits of another service.",
+	"choices": ["Enter the digits", "Use official account recovery methods or contact support"],
+	"correct_index": 1,
+	"feedback_correct": "Correct. Sites should not request unrelated account details.",
+	"feedback_incorrect": "Sharing parts of other accounts can help attackers piece together access."
+  },
+  {
+	"id": 27,
+	"difficulty": "medium",
+	"scenario": "You are offered a free wireless network at a cafe called 'FreeCafeWiFi' and another labeled 'FreeCafeWiFi_secure'.",
+	"choices": ["Connect to either network randomly", "Ask staff for the official network name"],
+	"correct_index": 1,
+	"feedback_correct": "Smart. Some networks spoof real names to intercept traffic. Ask staff.",
+	"feedback_incorrect": "Connecting to fake networks can allow attackers to monitor your traffic."
+  },
+  {
+	"id": 28,
+	"difficulty": "medium",
+	"scenario": "A friend sends a file but the file extension is double, like 'photo.jpg.exe'.",
+	"choices": ["Open file", "Refuse and ask for correct file format"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Double extensions are a sign of executable malware disguised as media.",
+	"feedback_incorrect": "Opening such files can execute malware."
+  },
+  {
+	"id": 29,
+	"difficulty": "medium",
+	"scenario": "A web article links to a 'required document' but the download is hosted on a general file sharing site with many files.",
+	"choices": ["Download from that link", "Ask the author for the direct official source"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Files on general hosting can be replaced or faked. Ask the author.",
+	"feedback_incorrect": "Downloads from unknown hosting can be unsafe."
+  },
+  {
+	"id": 30,
+	"difficulty": "medium",
+	"scenario": "You receive a message from an old classmate asking for a money transfer to help with an emergency. The account name is slightly different.",
+	"choices": ["Send money now", "Call or message the classmate using a known number to confirm"],
+	"correct_index": 1,
+	"feedback_correct": "Right. Emergency money requests are common scams. Confirm with reliable contact methods.",
+	"feedback_incorrect": "Scammers often create urgency to trick you into sending money."
+  },
+  {
+	"id": 31,
+	"difficulty": "medium",
+	"scenario": "A browser says a certificate is invalid on a site where you usually log in to check grades.",
+	"choices": ["Ignore and enter details anyway", "Use the school portal link you know or contact IT"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Certificate warnings mean the connection may not be secure. Confirm before proceeding.",
+	"feedback_incorrect": "Ignoring certificate warnings risks exposing your credentials."
+  },
+  {
+	"id": 32,
+	"difficulty": "medium",
+	"scenario": "An app update is available in an unofficial app marketplace but not in the official store.",
+	"choices": ["Install from unofficial marketplace", "Wait for official store update"],
+	"correct_index": 1,
+	"feedback_correct": "Correct. Unofficial stores may host altered or malicious apps.",
+	"feedback_incorrect": "Installing from unknown marketplaces can be dangerous."
+  },
+  {
+	"id": 33,
+	"difficulty": "medium",
+	"scenario": "Your social media account shows a login from a location you do not recognize. A message asks you to confirm and click a link.",
+	"choices": ["Click link to confirm", "Log in via the official site or app and check security settings"],
+	"correct_index": 1,
+	"feedback_correct": "Right. Use official channels to manage account security.",
+	"feedback_incorrect": "Clicking suspicious links can lead to account compromise."
+  },
+  {
+	"id": 34,
+	"difficulty": "medium",
+	"scenario": "A site asks you to sign in with your school account but the sign-in screen URL is long and includes many redirects.",
+	"choices": ["Sign in anyway", "Confirm the URL and use trusted sign-in flow"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Complex redirect URLs can hide malicious redirects.",
+	"feedback_incorrect": "Redirects can route your credentials to attackers."
+  },
+  {
+	"id": 35,
+	"difficulty": "medium",
+	"scenario": "A message claims a friend sent you money with a screenshot but the transaction ID is missing.",
+	"choices": ["Accept screenshot as proof", "Verify payment through the official payment app or ask friend to confirm"],
+	"correct_index": 1,
+	"feedback_correct": "Smart. Screenshots can be edited. Verify through official transaction records.",
+	"feedback_incorrect": "Screenshots alone are not proof of payment."
+  },
+  {
+	"id": 36,
+	"difficulty": "medium",
+	"scenario": "A free utility asks you to disable your antivirus for installation to 'work properly'.",
+	"choices": ["Disable antivirus", "Cancel installation and find a trusted source"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Legit software rarely needs permanent antivirus disablement.",
+	"feedback_incorrect": "Disabling antivirus can expose your system to threats."
+  },
+  {
+	"id": 37,
+	"difficulty": "medium",
+	"scenario": "An online form asks for your full birth date and mother's maiden name to 'verify identity' before you can read a public article.",
+	"choices": ["Provide details", "Use alternate verification like creating an account with minimal info or find another source"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Sensitive personal data should not be requested for casual access.",
+	"feedback_incorrect": "Sharing personal identifiers can help attackers impersonate you."
+  },
+  {
+	"id": 38,
+	"difficulty": "medium",
+	"scenario": "A friend asks you to join a group call and provides a link. The link opens an unknown app that requests camera access immediately.",
+	"choices": ["Grant camera access", "Ask what app it is and whether others recommend it"],
+	"correct_index": 1,
+	"feedback_correct": "Right. Confirm the app before granting camera or microphone access.",
+	"feedback_incorrect": "Granting access to unknown apps can compromise your privacy."
+  },
+  {
+	"id": 39,
+	"difficulty": "medium",
+	"scenario": "A new job listing asks for copies of your ID before any interview.",
+	"choices": ["Send ID now", "Ask for an interview first and verify the employer"],
+	"correct_index": 1,
+	"feedback_correct": "Smart. Employers normally verify identity later and through official channels.",
+	"feedback_incorrect": "Sending ID early can risk identity theft."
+  },
+  {
+	"id": 40,
+	"difficulty": "medium",
+	"scenario": "You receive a link to download a PDF. Your device warns the file type might be unsafe because it is actually an executable.",
+	"choices": ["Open the file", "Do not open and ask sender for the correct format"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Executables disguised as PDFs are malicious.",
+	"feedback_incorrect": "Opening disguised files can run malicious code."
+  },
+  {
+	"id": 41,
+	"difficulty": "hard",
+	"scenario": "A recruiter contacts you with a job offer but asks you to upload a scan of your ID to a third-party website not linked to the company.",
+	"choices": ["Upload ID", "Ask for official HR contact and confirm process"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Identity documents should only be shared through verified company channels.",
+	"feedback_incorrect": "Uploading IDs to unknown sites risks identity theft."
+  },
+  {
+	"id": 42,
+	"difficulty": "hard",
+	"scenario": "A message appears that looks exactly like your school portal, but the URL has 'school-verify.com' instead of the official domain.",
+	"choices": ["Enter credentials", "Close page and access only from official link"],
+	"correct_index": 1,
+	"feedback_correct": "Right. Fake portals use lookalike domains to steal logins.",
+	"feedback_incorrect": "Entering details here would give attackers your credentials."
+  },
+  {
+	"id": 43,
+	"difficulty": "hard",
+	"scenario": "An email from your bank arrives with your name correctly spelled and professional branding. The link in the email has a correct logo but the address is different.",
+	"choices": ["Click link", "Log in by typing the official bank URL manually"],
+	"correct_index": 1,
+	"feedback_correct": "Correct. Even well-made phishing emails can hide fake links.",
+	"feedback_incorrect": "Logos and branding can be copied. Only trust official URLs."
+  },
+  {
+	"id": 44,
+	"difficulty": "hard",
+	"scenario": "A free online tool offers to combine multiple PDFs but requires you to sign in with your email and password instead of Google or school SSO.",
+	"choices": ["Enter email password", "Use a tool that does not request credentials"],
+	"correct_index": 1,
+	"feedback_correct": "Good. No tool should ask for your email account password directly.",
+	"feedback_incorrect": "Sharing your email password exposes your entire account."
+  },
+  {
+	"id": 45,
+	"difficulty": "hard",
+	"scenario": "Your device shows a system update notification. When you click it, it opens a browser page instead of the settings menu.",
+	"choices": ["Proceed with download", "Cancel and update only via system settings"],
+	"correct_index": 1,
+	"feedback_correct": "Smart. Updates should come from device settings, not random web pages.",
+	"feedback_incorrect": "Fake update prompts can install malware."
+  },
+  {
+	"id": 46,
+	"difficulty": "hard",
+	"scenario": "A scholarship website requires you to upload a copy of your transcript and asks for your login to the student portal as 'verification'.",
+	"choices": ["Provide login details", "Submit only the transcript and confirm with school"],
+	"correct_index": 1,
+	"feedback_correct": "Correct. Real scholarships never request your portal credentials.",
+	"feedback_incorrect": "Sharing credentials hands over full access to attackers."
+  },
+  {
+	"id": 47,
+	"difficulty": "hard",
+	"scenario": "A new social platform promises early access if you log in using your email and password, not OAuth providers.",
+	"choices": ["Log in with email password", "Skip and wait for official access methods"],
+	"correct_index": 1,
+	"feedback_correct": "Right. Apps should not demand your email password directly.",
+	"feedback_incorrect": "Giving passwords to third-party apps is unsafe."
+  },
+  {
+	"id": 48,
+	"difficulty": "hard",
+	"scenario": "An email contains a correct-looking invoice PDF. When opened, it asks you to enable macros to see the content.",
+	"choices": ["Enable macros", "Do not enable and verify with the sender first"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Macros in unexpected files often hide malware.",
+	"feedback_incorrect": "Enabling macros can let malicious code run."
+  },
+  {
+	"id": 49,
+	"difficulty": "hard",
+	"scenario": "A cloud storage share link looks correct but uses http:// instead of https://.",
+	"choices": ["Continue anyway", "Only trust secure https links"],
+	"correct_index": 1,
+	"feedback_correct": "Correct. Secure connections use HTTPS to protect data.",
+	"feedback_incorrect": "HTTP links are vulnerable to interception."
+  },
+  {
+	"id": 50,
+	"difficulty": "hard",
+	"scenario": "An online contest asks for your student number, password, and home address to 'register'.",
+	"choices": ["Provide details", "Do not register with sensitive info"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Contests should not request login details and sensitive data.",
+	"feedback_incorrect": "This is likely a scam to collect your personal info."
+  },
+  {
+	"id": 51,
+	"difficulty": "hard",
+	"scenario": "A free VPN app requests device admin privileges before letting you connect.",
+	"choices": ["Allow admin privileges", "Cancel installation"],
+	"correct_index": 1,
+	"feedback_correct": "Right. Legit VPNs do not require full admin control.",
+	"feedback_incorrect": "Granting admin rights lets apps fully control your device."
+  },
+  {
+	"id": 52,
+	"difficulty": "hard",
+	"scenario": "You are invited to a video conference. The link looks valid but the certificate is self-signed and not from the provider.",
+	"choices": ["Join call", "Decline and verify invite with host"],
+	"correct_index": 1,
+	"feedback_correct": "Correct. Certificates prove authenticity. Self-signed ones are risky.",
+	"feedback_incorrect": "Joining with invalid certificates risks exposure."
+  },
+  {
+	"id": 53,
+	"difficulty": "hard",
+	"scenario": "You download an academic paper but the file asks you to install a viewer before opening.",
+	"choices": ["Install viewer", "Use standard PDF software instead"],
+	"correct_index": 1,
+	"feedback_correct": "Good. PDFs should open in trusted software.",
+	"feedback_incorrect": "Extra viewers may contain malware."
+  },
+  {
+	"id": 54,
+	"difficulty": "hard",
+	"scenario": "A browser extension offers to auto-fill forms but requires access to all your passwords.",
+	"choices": ["Grant access", "Do not install"],
+	"correct_index": 1,
+	"feedback_correct": "Right. Auto-fill extensions should not require your stored passwords.",
+	"feedback_incorrect": "This could steal your saved credentials."
+  },
+  {
+	"id": 55,
+	"difficulty": "hard",
+	"scenario": "A mobile banking app update appears in an ad banner on a website.",
+	"choices": ["Install from ad", "Update only via official app store"],
+	"correct_index": 1,
+	"feedback_correct": "Smart. Updates should only come through official app stores.",
+	"feedback_incorrect": "Ad-based downloads are unsafe and often fake."
+  },
+  {
+	"id": 56,
+	"difficulty": "hard",
+	"scenario": "You receive a calendar invite with a suspicious link attached to the event details.",
+	"choices": ["Click link", "Decline and verify with sender"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Event invites can be abused to spread links.",
+	"feedback_incorrect": "Clicking invites may lead to phishing sites."
+  },
+  {
+	"id": 57,
+	"difficulty": "hard",
+	"scenario": "An online payment processor requests your credit card PIN along with number and CVV.",
+	"choices": ["Provide PIN", "Decline and use trusted payment gateway"],
+	"correct_index": 1,
+	"feedback_correct": "Right. No service should ask for your card PIN.",
+	"feedback_incorrect": "Sharing your PIN compromises your bank account."
+  },
+  {
+	"id": 58,
+	"difficulty": "hard",
+	"scenario": "You see a login page that looks correct but it loads over an IP address instead of a domain name.",
+	"choices": ["Enter credentials", "Avoid and check official URL"],
+	"correct_index": 1,
+	"feedback_correct": "Correct. Legit sites use domain names with certificates.",
+	"feedback_incorrect": "IP-only login pages are often phishing."
+  },
+  {
+	"id": 59,
+	"difficulty": "hard",
+	"scenario": "A study resource site offers free premium accounts if you download a helper app first.",
+	"choices": ["Download app", "Avoid and use trusted resources"],
+	"correct_index": 1,
+	"feedback_correct": "Good. Free premium access is a bait for malware installs.",
+	"feedback_incorrect": "Downloading helper apps risks infecting your device."
+  },
+  {
+	"id": 60,
+	"difficulty": "hard",
+	"scenario": "You get an email that includes your old leaked password in the subject line and demands payment to keep your data private.",
+	"choices": ["Pay immediately", "Ignore and change your passwords"],
+	"correct_index": 1,
+	"feedback_correct": "Smart. This is a scare tactic using leaked data. Change your credentials instead.",
+	"feedback_incorrect": "Paying encourages attackers. Always reset your passwords."
+  }
+]
